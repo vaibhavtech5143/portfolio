@@ -33,6 +33,7 @@ body::before {
 @media (min-width: 1024px) {
     body::before {
         background-attachment: fixed;
+        width: 100%;
     }
 }
 
@@ -304,12 +305,14 @@ h6 {
     transition: 0.3s;
     z-index: 999;
     margin-top: 0;
+    width:auto;
 }
 
 .navbar-mobile .mobile-nav-toggle {
     position: absolute;
     top: 15px;
     right: 15px;
+    width:auto;
 }
 
 .navbar-mobile ul {
@@ -370,6 +373,7 @@ section .container {
 @media (max-width: 768px) {
     section {
         top: 120px;
+       
     }
     section.section-show {
         top: 80px;
