@@ -1,11 +1,3 @@
-/**
-* Template Name: Personal - v4.7.0
-* Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -16,6 +8,22 @@ body {
     color: #fff;
     position: relative;
     background: transparent;
+    overflow-x: hidden !important;
+}
+
+.container {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
+
+@media screen and (max-width: 667px) {
+    body {
+        overflow-x: hidden !important;
+    }
+    .container {
+        max-width: 100% !important;
+        overflow-x: hidden !important;
+    }
 }
 
 body::before {
